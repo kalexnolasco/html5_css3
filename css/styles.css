@@ -1,0 +1,41 @@
+/* reglas
+selectores
+declaraciones
+propiedades
+valores
+ */
+
+/* Selector de etiqueta --> header - seciton - nav
+header {
+  propiedad:valor;
+  propiedad:valor;
+  propiedad:valor;
+  propiedad:valor;
+}
+*/
+
+/* Selector descendente --> body header div nav ul li a
+body header div nav ul li a {
+  propiedad:valor;
+  propiedad:valor;
+}
+*/
+
+/* Selector de id --> #
+#contacte {
+  propiedad:valor;
+  propiedad:valor;
+  propiedad:valor;
+  propiedad:valor;
+}
+*/
+
+/* Selector de class --> .
+.link {
+  propiedad:valor;
+  propiedad:valor;
+  propiedad:valor;
+}
+*/
+
+
