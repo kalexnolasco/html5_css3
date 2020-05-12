@@ -39,3 +39,226 @@ body header div nav ul li a {
 */
 
 
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fjalla One', Times, serif;
+  font-weight: normal;
+  /* font-style: normal */
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -.2px;
+  color: white;
+  margin: 0;
+  /* text-transform: uppercase; */
+  /* text-decoration: dashed; */
+}
+
+h1 strong {
+  color: #FFD44C;
+}
+
+h2 {
+  color: #366C9A;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.hero {
+  height: 300px;
+  background-image: url(../images/me.png);
+  background-size:  230px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-color: #303636;
+  display: flex;
+  align-items: center;
+}
+.hero p {
+  font-size: 20px;
+  color: #366C9A;
+}
+.education {
+  background-color: #DCE0E0;
+  padding: 20px;
+}
+
+.school {
+  /* border-top: 10px solid red;
+  border-right: 10px solid green;
+  border-left:  10px solid red;
+  border-bottom: 10px solid orangered; */
+  /* border-top-color: pe *//* ru;
+  border-width: 15px;
+  border-style: solid; */
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.school-title {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.school-subtitle {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.school-degree {
+  font-size: 15px;
+  margin: 10px 0;
+}
+.school-date {
+  margin: 10px 0;
+}
+.school-url {
+  margin: 10px 0;
+}
+.school-description {
+  font-size: 16px;
+}
+.school strong {
+  font-family: 'Fjalla One', Times, serif;
+}
+
+.school-details {
+  width: 500px;
+}
+
+.school-imageContainer {
+  width: 500px;
+}
+
+.header {
+  background-color:#1D1F1F ;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu {
+  height: inherit;
+}
+.header ul {
+  display: flex;
+  height: inherit;
+}
+.header ul li {
+  height: inherit;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.flexbox {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+}
+.box
+{
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: 1px solid red;
+  flex-shrink: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+figure {
+  margin: 0;
+}
+
+
+.footer {
+  color: white;
+  background-color: #1D1F1F;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer img {
+  vertical-align: middle;
+}
+
+.footer a {
+  color: white;
+}
+
+.experience-list {
+  display: flex;
+}
+.experience {
+  border: 1px solid red;
+  margin: 10px;
+  width: 480px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.experience img {
+  width: 150px;
+}
+
+.contact {
+  background-color: #366C9A;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.social {
+
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+}
+
+.social-link.github{
+  background-image: url(../images/github.svg);
+}
+.social-link.linkedin{
+  background-image: url(../images/linkedin.svg);
+}
+.contate-email input{
+  border-color: gray;
+  padding: 5px 10px;
+}
